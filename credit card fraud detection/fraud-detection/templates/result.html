@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Prediction Results</title>
+    <style>
+      table.data {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      table.data th, table.data td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+      table.data th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Prediction Results</h2>
+    <h4>Here are all the predictions:</h4>
+    {{ tables[0]|safe }}
+    <br>
+    <a href="/">Go Back</a>
+  </body>
+</html>
